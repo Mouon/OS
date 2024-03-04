@@ -1,5 +1,6 @@
 # 운영체제
 
+### Part 0: Preview
 [0.Intriduction](https://github.com/Mouon/-/tree/main/0.Introduction)   
 
 ### Part I: CPU virtualization
