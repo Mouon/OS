@@ -1,7 +1,7 @@
 # 운영체제
 
 ### Part 0: Preview
-[0.Intriduction](https://github.com/Mouon/-/tree/main/0.Introduction)   
+[0.Intriduction](https://github.com/Mouon/-/blob/main/CPU%20virtualization/0.Introduction/Os_is..md)   
 
 ### Part I: CPU virtualization
 [1.Processes](https://github.com/Mouon/-/blob/main/CPU%20virtualization/1.Processes/Process.md)  
