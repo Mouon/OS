@@ -134,11 +134,11 @@ wait 시스템 콜이 parent쪽에서 호출되므로 마지막엔 parent의 pid
 
 # Virtualization of the CPU
 ## Time sharing
-– Illusion that many virtual CPUs exist when in fact there is only
+- Illusion that many virtual CPUs exist when in fact there is only
 one physical CPU (or a few)
-– Users can run as many concurrent processes as they would like
-– Potential cost : 전체적인 성능이 떨어지는 것이 아닌가 라는 의문
-– Context switch: 프로그램이 실행되다가 잠시 멈추고 다시 실행되는 메커니즘
+- Users can run as many concurrent processes as they would like
+- Potential cost : 전체적인 성능이 떨어지는 것이 아닌가 라는 의문
+- Context switch: 프로그램이 실행되다가 잠시 멈추고 다시 실행되는 메커니즘
 - scheduling policy : 언제 switch를 할지에 관한 policy
 
 ![image](https://github.com/Mouon/-/assets/137624597/faf2fc1a-edd2-40c9-97b3-9d3dff1794b4)
