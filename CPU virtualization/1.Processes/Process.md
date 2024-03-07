@@ -157,4 +157,28 @@ OS가 Ready상태의 프로세스를 할당하면 Running 상태로 전환됨
 IO가 끝나면 다시 Ready상태로 됨
 
 
+# 운영체제는 Process의 state를 어떤식으로 관리하고있는가?
+운영체제는 프로세스가 생성될때마다 해당 프로세스를 관리해줄 수 있는 자료구조를 생성합니다.  그 자료구조는 보통 process controll block이라고 불립니다. `PCB`
+## Data Structure
+### Linux kernel
+ `/include/linux/sched.h`  
+pcb 여할을 함
+```
+struct task_struct {
+    volatile long state; /* TASK_RUNNING, TASK_INTERRUPTIBLE ... */
+    void *stack; /* Pointer to the kernel-mode stack */
+    ...
+    unsigned int cpu;/* 어느 CPU에서 도는지 */
+    ...
+    struct mm_struct *mm;
+    ...
+    struct task_struct *parent;
+    struct list_head children;
+    ...
+    struct files_struct *files; /* 오픈한 파일 리스트를 관리함 */
+    ...
+};
+
+```
+리눅스는 Running, Ready 상태를 구분하지 않음
 
