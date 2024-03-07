@@ -154,7 +154,9 @@ OS가 Ready상태의 프로세스를 할당하면 Running 상태로 전환됨
 프로세스가 생성이 되면 기본적으로 Ready 상태에 속함
 ### Blocked (Waiting)
 프로세스가 CPU를 할당 받아서 실행중에 IO요청을 하면 IO장치의 응답을 기다리며 대기하게되는데 이때 Blocked상태가 되며 CPU를 Ready상태의 프로세스에게 할당합니다.
-IO가 끝나면 다시 Ready상태로 됨        
+IO가 끝나면 다시 Ready상태로 됨          
+            
+
 
 
 # 운영체제는 Process의 state를 어떤식으로 관리하고있는가?
