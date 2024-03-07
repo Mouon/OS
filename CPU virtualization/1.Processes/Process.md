@@ -126,11 +126,11 @@ hello, I am child (pid:29384)
 29 107 1030 p3.c
 hello, I am parent of 29384 (wc:29384) (pid:29383) prompt>
 ```
-wait 시스템 콜이 parent쪽에서 호출되므로 마지막엔 parent의 pid출력
+wait 시스템 콜이 parent쪽에서 호출되므로 마지막엔 parent의 pid출력    
 
 
 ## How to provide the illusion of many CPUs?
-코어수보다 많은 프로세스가 생성되면 어떻게 효율적으로 실행되는지가 관심사
+코어수보다 많은 프로세스가 생성되면 어떻게 효율적으로 실행되는지가 관심사    
 
 # Virtualization of the CPU
 ## Time sharing
@@ -154,7 +154,7 @@ OS가 Ready상태의 프로세스를 할당하면 Running 상태로 전환됨
 프로세스가 생성이 되면 기본적으로 Ready 상태에 속함
 ### Blocked (Waiting)
 프로세스가 CPU를 할당 받아서 실행중에 IO요청을 하면 IO장치의 응답을 기다리며 대기하게되는데 이때 Blocked상태가 되며 CPU를 Ready상태의 프로세스에게 할당합니다.
-IO가 끝나면 다시 Ready상태로 됨
+IO가 끝나면 다시 Ready상태로 됨        
 
 
 # 운영체제는 Process의 state를 어떤식으로 관리하고있는가?
@@ -162,7 +162,7 @@ IO가 끝나면 다시 Ready상태로 됨
 ## Data Structure
 ### Linux kernel
  `/include/linux/sched.h`  
-pcb 여할을 함
+pcb 역할을 함
 ```
 struct task_struct {
     volatile long state; /* TASK_RUNNING, TASK_INTERRUPTIBLE ... */
