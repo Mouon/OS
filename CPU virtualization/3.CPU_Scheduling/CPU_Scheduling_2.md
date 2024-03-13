@@ -23,9 +23,12 @@
     
 # Incorporating I/O
 <img width="642" alt="스크린샷 2024-03-13 오후 2 21 26" src="https://github.com/Mouon/OS/assets/137624597/39a4934f-07b3-400e-ac5e-9b646d02e427">
+
 - I/O request 마다 CPU가 노는 경우 발생
 그 시점마다 스케줄러가 스케줄링을 해주면 어떨까?
+
 <img width="642" alt="스크린샷 2024-03-13 오후 2 22 06" src="https://github.com/Mouon/OS/assets/137624597/942f55bc-6867-4a1d-8726-c1d179684a33">
+
 - 파랑이가 사이사이 스케줄링에의해 사용됨
 
 #### throwPut이 높다
