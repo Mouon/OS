@@ -9,7 +9,7 @@
 
 # First In, First Out (FIFO)  
 
-<img width="638" alt="스크린샷 2024-03-13 오후 1 54 31" src="https://github.com/Mouon/OS/assets/137624597/044a689f-8864-4dcc-a1cd-251c75990933">
+<img width="537" alt="스크린샷 2024-03-13 오후 2 28 47" src="https://github.com/Mouon/OS/assets/137624597/e699d3b1-9d8c-4b0d-bf0c-7e7af3460905">
 
 요청순서대로..
 
@@ -18,7 +18,7 @@
 - 초록이는 10 실행 Ready는 20
 #### Average turnaround time = 20
 
-<img width="536" alt="스크린샷 2024-03-13 오후 1 57 25" src="https://github.com/Mouon/OS/assets/137624597/5ff5694d-3dd7-4763-8a47-e4a7cb69031f">
+<img width="537" alt="스크린샷 2024-03-13 오후 2 29 43" src="https://github.com/Mouon/OS/assets/137624597/453e836a-ab50-425a-b4d7-47abc2e20f78">
 
 #### Average turnaround time = 110
 파랑이 초록이는 짧게 실행하는데 대기시간 걸려서 turnaround time이 길어짐 `Convoy effect`
@@ -34,5 +34,5 @@
 
 <img width="525" alt="스크린샷 2024-03-13 오후 2 01 37" src="https://github.com/Mouon/OS/assets/137624597/deec0761-3ace-4805-b1be-5de3ca2f94e7">
 
-## B,C 가 나중에 도착했는데 선점을 못해서... 괜히 또 길어짐 
+#### B,C 가 나중에 도착했는데 선점을 못해서... 괜히 또 길어짐 
 
