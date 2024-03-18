@@ -1,6 +1,5 @@
 ## Problems
-
-- Starvation 라는 문제가 있을 수 있습니다 : interactive jobs들이 많다면..
+Starvation 라는 문제가 있을 수 있습니다 : interactive jobs들이 많다면..
 
 ## Priority Boost
 #### After some time period S, move all the jobs in the system to the topmost queue
